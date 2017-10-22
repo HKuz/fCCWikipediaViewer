@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./CSS/style.css">
+        <title>Wikipedia Viewer App</title>
+    </head>
+    <body>
+       <div class="container-fluid">
+        <div class="row">
+          <h1 class="header text-center"><img id="logo" class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Wikipedia_logo_593.jpg">Wikipedia Viewer</h1>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-10">
+            <div class="form-group center-block col-centered">
+              <div class="input-group">
+                <input id="searchQuery" type="text" class="form-control" placeholder="Search Wikipedia Articles">
+                <span class="input-group-btn">
+                  <button id="go" class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                </span>
+              </div> <!-- End Input Group -->
+              <a id="random" class="btn btn-default btn-sm" role="button" href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">Get a Random Wikipedia Article</a>
+            </div> <!-- End Form Group -->
+          </div> <!-- End Col -->
+        </div> <!-- End Row -->
+        <div id="articles">
+          <!-- Search Results -->
+        </div>
+      </div> <!-- End Container Fluid -->
+
+    <!-- jQuery and Bootstrap Minified JavaScript scripts -->
+    <!-- Check jQuery and Bootstrap websites for latest version numbers -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="./JS/script.js"></script>
+    </body>
+</html>
